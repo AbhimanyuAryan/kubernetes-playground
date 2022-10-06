@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: julia-pod
+spec:
+  containers:
+  - name: jpod
+    image: julia:1
+    stdin: true
+    tty: true
